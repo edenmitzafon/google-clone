@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Google Advanced Search</title>
+    <link rel="stylesheet" href="advanced.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <button>
+        <a href="index.html">
+          <img src="googlelogo.png" alt="google" />
+        </a>
+      </button>
+    </header>
+    <h2>Advanced Search</h2>
+
+    <div class="grid">
+      <div class="grid-item"><h3>find pages with...</h3></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"><h6>To do this in the search box.</h6></div>
+    </div>
+      <form action="https://www.google.com/search">
+        <div class="grid">
+        <div class="grid-item"><label>all these words:</label></div>
+        <div class="grid-item">
+          <input type="text" name="as_q" />
+        </div>
+        <div class="grid-item"><p>Type the important words: tri-color rat terrier</p></div>
+        <div class="grid-item"><label>this exact word or phrase:</label></div>
+        <div class="grid-item">
+          <input type="text" name="as_epq" />
+        </div>
+        <div class="grid-item"><p>Put exact words in quotes: "rat terrier"</p></div>
+        <div class="grid-item"><label>any of these words:</label></div>
+        <div class="grid-item">
+          <input type="text" name="as_oq" />
+        </div>
+        <div class="grid-item"><p>Type OR between all the words you want: miniature OR small</p></div>
+        <div class="grid-item"><label>none of these words:</label></div>
+        <div class="grid-item">
+          <input type="text" name="as_eq" />
+        </div>
+        <div class="grid-item"><p>Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</p></div>
+      </div>
+       <div class="search-button"><input type="submit" /></div>
+      </form>
+    </div>
+  </body>
+</html>

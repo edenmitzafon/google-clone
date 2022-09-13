@@ -1,0 +1,96 @@
+body {
+  font-family: roboto, arial;
+  max-width: max-content;
+  margin: auto;
+
+  header {
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    margin-bottom: 20px;
+
+    button {
+      border: none;
+      background-color: white;
+
+      img {
+        width: 70px;
+      }
+    }
+  }
+
+  h2 {
+    color: rgb(217, 48, 37);
+    margin-bottom: 20px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 210px 320px auto;
+    background-color: rgba(244, 244, 244, 0.53);
+    align-items: center;
+    grid-auto-rows: 1fr;
+    grid-column-gap: 20px;
+
+    h3 {
+      font-weight: 500;
+      color: rgb(51, 51, 51);
+    }
+
+    h6 {
+      color: rgb(51, 51, 51);
+      text-align: left;
+    }
+
+    .grid-item {
+      font-size: 20px;
+    }
+  }
+
+  form {
+    input[type="text"] {
+      padding: 5px 15px 5px 15px;
+      border: 1px solid rgb(203, 203, 203);
+      border-radius: 6px;
+      box-shadow: 0 0 2px rgb(183, 183, 183) inset;
+      width: 250px;
+    }
+
+    input[type="text"]:focus {
+      outline: none;
+    }
+
+    input[type="text"]:hover {
+      box-shadow: 0 0 10px rgb(183, 183, 183);
+    }
+  }
+
+  .search-button {
+    float: right;
+    margin: 20px;
+
+    input[type="submit"] {
+      width: fit-content;
+      padding: 8px 30px 8px 30px;
+      margin-top: 20px;
+      border: none;
+      border-radius: 4px;
+      background-color: rgb(77, 144, 254);
+      color: white;
+      box-shadow: 0 0 2px rgb(183, 183, 183) inset;
+    }
+
+    input[type="submit"]:hover {
+      box-shadow: 0 0 10px rgb(183, 183, 183);
+      cursor: pointer;
+    }
+  }
+
+  label {
+    font-size: 13.4px;
+  }
+
+  p {
+    font-size: 13.4px;
+  }
+}
